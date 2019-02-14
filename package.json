@@ -1,0 +1,17 @@
+{
+  "id": "basecamp",
+  "name": "Basecamp",
+  "version": "1.0.0",
+  "description": "Project Management & Team Communication Software.",
+  "main": "index.js",
+  "author": "Alexandre Debusschere <zizilex@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/debuss/recipe-basecamp",
+  "config": {
+    "serviceURL": "https://3.basecamp.com/{teamId}",
+    "hasTeamId": true,
+	"hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true
+  }
+}
